@@ -1,6 +1,6 @@
 # C++ project development, testing and deployment template
 
-FROM debian:latest
+FROM debian:12
 
 # Install dependencies
 RUN apt-get update && \
